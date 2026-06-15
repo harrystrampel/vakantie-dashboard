@@ -20,7 +20,7 @@ en aansluit op je bestaande Meta-ads creative-engine.
 
 ## 2. Positionering
 
-**Merk:** `ATLAS` _(wijzig in `config.yml`)_ — handle `@buildwithatlas`.
+**Merk:** `VECTOR` _(wijzig in `config.yml`)_ — handle `@vectorhq`.
 
 De persona: een consistente AI-gegenereerde founder die elke dag laat zien hoe AI
 de online wereld verandert — nieuwe tools, slimme workflows, en de impact op

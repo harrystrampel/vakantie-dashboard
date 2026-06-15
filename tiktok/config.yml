@@ -2,9 +2,9 @@
 # Pas dit aan; de scripts en workflows lezen hieruit.
 
 brand:
-  name: "ATLAS"                      # gekozen werktitel — wijzig vrij naar je echte merknaam
-  handle: "@buildwithatlas"          # je TikTok-handle (check beschikbaarheid)
-  tagline: "Building an AI company in public."
+  name: "VECTOR"                     # gekozen merknaam — wijzig vrij
+  handle: "@vectorhq"                # voorkeurshandle (beschikbaarheid zelf checken)
+  tagline: "Direction and momentum for the AI era."
   language: "en"                     # content-taal (Engels, wereldwijd)
 
 posting:

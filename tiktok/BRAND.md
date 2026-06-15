@@ -10,9 +10,10 @@ content-pijplijn elke dag gebruikt om beelden/video's te genereren.
 
 ## 1. Merknaam & handle
 
-- Werktitel: **NOVA** _(wijzig in `config.yml`)_
-- Handle-voorstellen: `@buildwithnova`, `@nova.builds`, `@nova.ai.studio`
-- Tagline: _"Building an AI company in public."_
+- Merknaam: **VECTOR** _(wijzig in `config.yml`)_
+- Handle-voorstellen: `@vectorhq`, `@vector.ai`, `@getvector` (beschikbaarheid zelf checken)
+- Tagline: _"Direction and momentum for the AI era."_
+- Betekenis: een vector = richting + kracht, én de kernbouwsteen van AI-modellen — past dubbel.
 
 ## 2. De persona (consistent karakter)
 

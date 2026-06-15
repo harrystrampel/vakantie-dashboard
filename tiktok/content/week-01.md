@@ -1,6 +1,6 @@
 # Content — Week 01 (launch) · AI & de online wereld
 
-Faceless, consistente ATLAS-persona (zie `../BRAND.md`), Engels. Hybride formaat:
+Faceless, consistente VECTOR-persona (zie `../BRAND.md`), Engels. Hybride formaat:
 🎬 = hero-video (~45 cr), 🖼️ = slideshow/carousel (~2 cr). Productie-klaar.
 
 > Doel week 1: identiteit neerzetten + bewijzen dat het account concrete waarde
@@ -10,7 +10,7 @@ Faceless, consistente ATLAS-persona (zie `../BRAND.md`), Engels. Hybride formaat
 
 ### Dag 1 (ma) — 🎬 P2 Build-in-public
 - **Hook (frame 0):** "I'm building an AI company in public. Day 1. Here's the plan."
-- **Script:** wie ATLAS is, waarom AI nu de online wereld op zijn kop zet, en de belofte: "follow and watch it grow."
+- **Script:** wie VECTOR is, waarom AI nu de online wereld op zijn kop zet, en de belofte: "follow and watch it grow."
 - **Visual:** persona in studio, teal accent. Tekst-overlay "DAY 1".
 - **CTA:** "Follow to watch it built live."
 - **Hashtags:** #ai #buildinpublic #onlinebusiness #ecommerce #startup
