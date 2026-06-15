@@ -1,33 +1,32 @@
-# Content-kalender & pillar-rotatie
+# Content-kalender & rotatie — AI voor e-commerce
 
-1 video per dag. Vaste weekrotatie zodat het merk afwisselend reach én loyaliteit
-opbouwt. De maandag-audit kan deze rotatie bijstellen.
+1 post per dag, **hybride budget-cadans** (zie `COSTS.md`): 3 video-dagen +
+4 slideshow-dagen per week. De maandag-audit kan dit bijstellen.
 
-## Vaste weekrotatie
+## Weekrotatie (hybride)
 
-| Dag | Pillar | Type |
-|---|---|---|
-| Maandag | P2 — Build-in-public | "Week [N] of building my AI product" + audit-learnings verwerkt |
-| Dinsdag | P1 — AI tool/workflow | Snelle, hoge-reach value |
-| Woensdag | P3 — Wow-demo | Before/after of mind-blowing demo |
-| Donderdag | P1 — AI tool/workflow | Tweede value-video van de week |
-| Vrijdag | P4 — Hot take | Mening/debat → comments |
-| Zaterdag | P3 — Wow-demo | Shareable weekend-content |
-| Zondag | P1 — AI tool/workflow | Value + zachte CTA naar waitlist |
+| Dag | Formaat | Pillar | Type |
+|---|---|---|---|
+| Maandag | 🎬 Video | P2 — Build-in-public | "Week [N] building my AI tool for sellers" + audit-learnings |
+| Dinsdag | 🖼️ Slideshow | P1 — AI e-com tool | Snelle tool/workflow voor productfoto's of ads |
+| Woensdag | 🎬 Video | P3 — Wow-demo | $0 productshoot → studio-look (before/after) |
+| Donderdag | 🖼️ Slideshow | P1 — AI e-com tool | Tweede value-post (copy / store-setup / automation) |
+| Vrijdag | 🖼️ Slideshow | P4 — Hot take | Mening over dropshipping/e-commerce + AI → comments |
+| Zaterdag | 🖼️ Slideshow | P3 — Wow-demo | Shareable before/after (carousel) |
+| Zondag | 🎬 Video | P1 — AI e-com tool | Value + zachte CTA naar waitlist |
 
-Dit geeft per week ≈ P1 40% / P2 15% / P3 30% / P4 15% — daarna fine-tunet de
-audit op basis van wat echt volgers/saves oplevert.
+Budget ≈ 3×45 + 4×~2 = **~143 credits/week** (~620/maand) — ruim binnen saldo.
 
-## Workflow per video (door de pijplijn)
+## Workflow per post (door de pijplijn)
 
 1. Pak de brief van vandaag uit `content/week-NN.md`.
-2. Genereer visuals + voiceover volgens `BRAND.md` (consistente persona/reference).
-3. Stel de video samen (9:16, ondertiteling, hook in frame 0).
+2. Genereer visuals + (bij video) voiceover volgens `BRAND.md` (consistente persona/reference).
+3. Stel samen: video (9:16, ondertiteling, hook frame 0) of carousel (hook op slide 1).
 4. Genereer caption + hashtags.
-5. (Optioneel) draai de virality-predictor; bij lage score → hook herzien.
+5. (Video, strategisch) draai virality-predictor; bij lage score → hook/pacing herzien.
 6. Post via `scripts/post_to_tiktok.py` op de ingestelde tijd.
 
 ## Hashtag-strategie
 
-- 3–5 tags: 1 breed (`#ai`), 2 niche (`#aitools`, `#buildinpublic`), 1–2 trend-tags (audit vult aan).
-- Geen tag-spam; relevantie > volume.
+- 3–5 tags: 1 breed (`#ecommerce` / `#ai`), 2 niche (`#shopify`, `#dropshipping`, `#aitools`),
+  1–2 trend-tags (audit vult aan). Relevantie > volume.

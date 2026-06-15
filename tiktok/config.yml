@@ -10,8 +10,14 @@ brand:
 posting:
   time_local: "17:00"                # dagelijkse posttijd (lokaal)
   timezone: "Europe/Amsterdam"       # cron in de workflow staat in UTC; zie comment daar
-  cadence: "daily"                   # 1 video per dag
+  cadence: "daily"                   # 1 post per dag
   # NB: de audit mag deze tijd bijstellen op basis van wat het best presteert.
+
+budget:                              # zie COSTS.md voor de echte cijfers
+  mode: "hybrid"                     # 3 video-dagen + 4 slideshow-dagen per week
+  video_days: ["mon", "wed", "sun"]  # hero-videoclip (~45 credits)
+  slideshow_days: ["tue", "thu", "fri", "sat"]  # carousel (~1-3 credits)
+  est_monthly_credits: 620           # ruim binnen ~1789 saldo
 
 pillars:                             # moet samen 100% zijn — audit kan dit bijstellen
   P1_ai_tool: 40
