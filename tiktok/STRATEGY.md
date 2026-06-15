@@ -4,62 +4,62 @@
 > document elke week bij. Onderaan staat een **Changelog** met datum + reden van
 > elke wijziging.
 
-_Laatst bijgewerkt: 2026-06-15 (niche → AI voor e-commerce)_
+_Laatst bijgewerkt: 2026-06-15 (niche → AI & impact op e-commerce / online wereld)_
 
 ---
 
 ## 1. Noord-ster
 
-> Een wereldwijd, Engelstalig **AI-merk in de e-commerce-niche** opbouwen met een
-> herkenbare visuele identiteit, dat een audience van online sellers kweekt die
-> later converteert naar een **AI-SaaS voor e-commerce**.
+> Een wereldwijd, Engelstalig **AI-merk** opbouwen met een herkenbare visuele
+> identiteit, dat laat zien **hoe AI de e-commerce en de online wereld verandert**,
+> en een grote audience kweekt die later converteert naar een **AI-SaaS**.
 
-Sluit direct aan op je bestaande Meta-ads creative-engine: we bouwen eerst het
-**publiek + vertrouwen** van precies de mensen die zo'n tool kopen.
+Breed genoeg voor reach (iedereen die online bouwt/verdient), maar met een
+commerciële kern (e-commerce/online business) die straks een SaaS kan dragen —
+en aansluit op je bestaande Meta-ads creative-engine.
 
 ## 2. Positionering
 
 **Merk:** `ATLAS` _(wijzig in `config.yml`)_ — handle `@buildwithatlas`.
 
-De persona: een consistente AI-gegenereerde founder die in het openbaar een
-**AI-tool voor e-commerce sellers** bouwt en onderweg laat zien hoe AI de hele
-e-commerce-workflow verandert (productfoto's, advertenties, copy, store-ops).
+De persona: een consistente AI-gegenereerde founder die elke dag laat zien hoe AI
+de online wereld verandert — nieuwe tools, slimme workflows, en de impact op
+e-commerce, marketing en online geld verdienen. Onderweg bouwt hij in het openbaar
+aan eigen AI-projecten (build-in-public als verhaallijn, niet als enige onderwerp).
 
-Twee groeimotoren gecombineerd:
+Twee groeimotoren:
 
-1. **High-reach value** ("doe je productfoto's/ads zo met AI") → trekt sellers binnen.
-2. **Build-in-public narratief** ("ik bouw de AI-tool die elke Shopify-store gaat gebruiken") → loyaliteit + warme leads voor de SaaS.
-
-**Waarom dit wint:** de e-commerce/dropshipping-hustle-niche is enorm op TikTok en
-heeft directe commerciële intentie. Een persona + verhaal geeft merkherkenning;
-dat is de moat om straks een SaaS aan te verkopen.
+1. **High-reach value & nieuws** ("deze nieuwe AI verandert online business") → brengt brede AI-audience binnen.
+2. **Build-in-public + commerciële hoek** (e-commerce/online verdienen) → loyaliteit + warme leads voor de SaaS.
 
 ## 3. Ideale kijker (ICP) → toekomstige SaaS-klant
 
-- Shopify-/dropshipping-/DTC-sellers, kleine merken, e-commerce-bureaus.
-- Pijn: dure productshoots, advertentie-creatives die blijven verversen, copywriting,
-  trage store-operaties — willen output zonder team of fotograaf.
-- Exact de doelgroep van je Meta-ads creative-engine.
+- Iedereen die online bouwt of verdient: e-commerce-sellers, creators, marketeers,
+  freelancers, solo-founders, side-hustlers.
+- Pijn: AI verandert snel, ze willen bijblijven én het praktisch inzetten om online
+  meer te bereiken/verdienen met minder werk.
+- Commerciële kern (e-commerce) = de groep die straks de SaaS koopt.
 
 ## 4. Content-pillars (rotatie)
 
 | # | Pillar | Doel | Aandeel |
 |---|---|---|---|
-| P1 | **AI e-commerce tool/workflow** (productfoto's, ads, copy, store-setup) | Reach / saves | 40% |
-| P2 | **Build-in-public** (de AI-tool voor sellers die ik bouw) | Loyaliteit / verhaal | 25% |
-| P3 | **Wow-demo / before-after** ($0 productshoot → studio-look met AI) | Shares / wow | 20% |
-| P4 | **Hot take** (dropshipping/e-commerce + AI-meningen) | Comments / debat | 15% |
+| P1 | **AI tool/nieuws dat de online wereld verandert** | Reach / saves | 40% |
+| P2 | **Build-in-public** (wat ik met AI bouw) | Loyaliteit / verhaal | 25% |
+| P3 | **Wow-demo / before-after** (AI-resultaat dat verbaast) | Shares / wow | 20% |
+| P4 | **Hot take** (AI + e-commerce/online business meningen) | Comments / debat | 15% |
 
 Cadans + hybride budget-rotatie staan in `content-calendar.md`.
 
 ## 5. Hook-bibliotheek (wordt door audit uitgebreid)
 
+- "This new AI just changed how online business works."
+- "AI is quietly taking over e-commerce. Here's how to stay ahead."
 - "I made $0 product photos look like a $5k studio shoot — with AI."
-- "Stop paying for product photography. Do this instead."
-- "This AI turns ONE product photo into 50 scroll-stopping ad creatives."
-- "Dropshippers are quietly using this AI. Here's how."
-- "I'm building the AI tool every Shopify store will use. Day [N]."
-- "Your product page is losing sales. AI fixes it in 60 seconds."
+- "Nobody online is talking about this AI tool yet."
+- "This AI does in 60 seconds what used to cost $500."
+- "I'm building an AI product in public. Day [N]."
+- "If you make money online, you need to see this AI."
 
 ## 6. Format-regels (faceless, hoge retentie)
 
@@ -77,9 +77,9 @@ Cadans + hybride budget-rotatie staan in `content-calendar.md`.
 Reach (P1/P3) → Volgen (persona/verhaal, P2) → Bio-link → Waitlist/email → SaaS-launch
 ```
 
-- Bio: één CTA naar een waitlist-landingspagina voor de AI-e-commerce-tool.
-- Vanaf ~5k volgers: pinned video die de tool/waitlist pitcht.
-- Elke maand: 1 "waitlist drop"-video met een concreet AI-e-commerce-resultaat.
+- Bio: één CTA naar een waitlist-landingspagina.
+- Vanaf ~5k volgers: pinned video die de waitlist pitcht.
+- Elke maand: 1 "waitlist drop"-video met een concreet AI-resultaat.
 
 ## 8. KPI's (wat de audit weegt)
 
@@ -99,15 +99,16 @@ Reach (P1/P3) → Volgen (persona/verhaal, P2) → Bio-link → Waitlist/email �
 - [ ] Test hook-stijl "vraag" vs. "bold claim".
 - [ ] Test open-loop hook voor P2 ("Day N… here's the part nobody shows").
 - [ ] Test 45–60s vs. 30s versie van dezelfde P1 op completion-rate.
-- [ ] Test before/after productfoto (P3) vs. ad-creative-demo (P3) op shares.
+- [ ] Test breed AI-nieuws (P1) vs. e-commerce-specifieke demo (P3) op reach vs. saves.
 
 ---
 
 ## Changelog
 
-- **2026-06-15 (niche-pivot)** — Niche gewijzigd naar **AI voor e-commerce**.
-  Positionering, ICP, pillars en hooks herschreven richting online sellers;
-  funnel gekoppeld aan bestaande Meta-ads creative-engine. (door: gebruiker)
+- **2026-06-15 (niche-verbreding)** — Niche verbreed naar **AI & impact op
+  e-commerce / online wereld** (i.p.v. smal "tool voor sellers"). Positionering,
+  ICP, pillars en hooks aangepast voor brede reach met commerciële kern. (door: gebruiker)
+- **2026-06-15 (niche-pivot)** — Niche eerst naar AI voor e-commerce. (door: gebruiker)
 - **2026-06-15 (W25-audit)** — Format gekalibreerd op 2026-algoritme: primaire lengte
   30–60s, watch time/completion als primaire KPI (~3× gewicht), first-hour
   comment-engagement toegevoegd. Bron: trend-research juni 2026. (door: maandag-audit)
