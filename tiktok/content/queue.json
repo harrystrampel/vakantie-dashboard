@@ -1,0 +1,7 @@
+{
+  "_readme": "Per datum de klaargezette video. De daily-post workflow pakt de entry van vandaag. Een geplande Claude-sessie genereert de video (consistente persona + voiceover), host de .mp4 op een publieke URL, en vult hier de entry in. Voorbeeld hieronder mag je verwijderen.",
+  "2026-01-01": {
+    "video_url": "https://example.com/path/to/video.mp4",
+    "title": "Your caption here #ai #aitools #buildinpublic"
+  }
+}

@@ -1,0 +1,27 @@
+# Centrale configuratie voor de AI Brand Engine.
+# Pas dit aan; de scripts en workflows lezen hieruit.
+
+brand:
+  name: "NOVA"                       # werktitel — wijzig naar je echte merknaam
+  handle: "@buildwithnova"           # je TikTok-handle
+  tagline: "Building an AI company in public."
+  language: "en"                     # content-taal (Engels, wereldwijd)
+
+posting:
+  time_local: "17:00"                # dagelijkse posttijd (lokaal)
+  timezone: "Europe/Amsterdam"       # cron in de workflow staat in UTC; zie comment daar
+  cadence: "daily"                   # 1 video per dag
+  # NB: de audit mag deze tijd bijstellen op basis van wat het best presteert.
+
+pillars:                             # moet samen 100% zijn — audit kan dit bijstellen
+  P1_ai_tool: 40
+  P2_build_in_public: 25
+  P3_wow_demo: 20
+  P4_hot_take: 15
+
+audit:
+  day: "monday"
+  output: "pull_request"             # "pull_request" | "issue" | "commit"
+
+funnel:
+  waitlist_url: ""                   # vul in zodra je landingspagina live is
