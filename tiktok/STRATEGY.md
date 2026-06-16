@@ -4,7 +4,9 @@
 > document elke week bij. Onderaan staat een **Changelog** met datum + reden van
 > elke wijziging.
 
-_Laatst bijgewerkt: 2026-06-15 (niche → AI & impact op e-commerce / online wereld)_
+_Laatst bijgewerkt: 2026-06-16 (recept herijkt op deep research — zie `RESEARCH.md`)_
+
+> 📚 Het content-recept hieronder is gebaseerd op `RESEARCH.md` (deep research, 5 angles, ~50 bronnen).
 
 ---
 
@@ -61,15 +63,23 @@ Cadans + hybride budget-rotatie staan in `content-calendar.md`.
 - "I'm building an AI product in public. Day [N]."
 - "If you make money online, you need to see this AI."
 
-## 6. Format-regels (faceless, hoge retentie)
+## 6. Format-regels (faceless, hoge retentie) — herijkt op research
 
-- **Eerste frame = hook in tekst** (binnen 0,5s leesbaar). Geen intro, geen logo-bumper.
-- **Lengte 30–60s primair** voor P1/P3; P2/P4 mag richting 60–90s voor watch-time-distributie.
-  _(W25: het 2026-algoritme weegt watch time + completion ~3× zwaarder dan likes/follows.)_
-- Native ondertiteling altijd aan. Trending audio waar passend (P1/P3).
-- 1 idee per video. Eindigen met micro-CTA (volg / comment "X" / save).
-- **First-hour engagement:** beantwoord elke comment in het eerste uur (engagement velocity is een rankingsignaal).
-- Consistente visuele identiteit elke video — zie `BRAND.md`.
+- **Carousel-first.** Photo-Mode listicles (5–10 slides) zijn de ruggengraat: hoger bereik,
+  goedkoper, minder "AI-slop"-risico. Video is aanvulling, niet de basis.
+- **Eerste frame = hook in tekst** (binnen 0,5s leesbaar), curiosity/getallen/results-first.
+  Geen intro, geen logo-bumper. Doel: intro-retentie ≥70%.
+- **Kort wint:** video's **<35s** (vaak 11–20s) voor completion; alleen langer als watch-time houdt.
+- **Loop bouwen:** laatste frame ≈ eerste frame (rewatch is 2026-signaal).
+- **Burned-in captions altijd aan.** **Emerging trending sound** (~500–10k uses) waar passend.
+- **Menselijke voiceover + echte waarde** in video; AI als assistent, niet als hele video.
+- **AI-content labelen** (realistische AI-media); geen massa-geproduceerde herhaling.
+- 1 idee per post. Eindigen met micro-CTA — vooral **"save this"** (saves = #2-signaal).
+- **First-hour engagement:** beantwoord elke comment in het eerste uur.
+- Consistente visuele identiteit elke post — zie `BRAND.md`.
+
+**Cadans:** **3–5 kwaliteitsposts/week**, consistent, één niche (cold-start: eerste ~10–15 posts
+on-niche). Liever 2 bangers dan 7 vulling. Beste tijden: Di–Do ~14–17u.
 
 ## 7. Groei-funnel naar de SaaS
 
@@ -83,14 +93,16 @@ Reach (P1/P3) → Volgen (persona/verhaal, P2) → Bio-link → Waitlist/email �
 
 ## 8. KPI's (wat de audit weegt)
 
-| Niveau | Metric | Waarom |
-|---|---|---|
-| Per video | **Completion-rate + gem. kijktijd** (primair, ~3× gewicht) | Belangrijkste 2026-rankingsignaal |
-| Per video | 3s-view % | Hook-sterkte |
-| Per video | Saves + shares (zwaarder dan likes) | Echte waarde-signalen |
-| Per video | Comments in eerste uur | Engagement velocity (ranking) |
-| Wekelijks | Volgers-groei + profielbezoeken | Merkmomentum |
-| Maandelijks | Waitlist-aanmeldingen via bio | Funnel naar SaaS |
+| Niveau | Metric | Benchmark "goed" | Waarom |
+|---|---|---|---|
+| Per video | **Completion-rate** (primair) | **60–70%+** (>70% sterk; <40% afgeknepen) | Belangrijkste 2026-signaal |
+| Per video | Gem. kijktijd | hoog t.o.v. lengte | Watch-time = groeimotor |
+| Per video | Hook-/3s-retentie | **≥70%** | Hook-sterkte (poort) |
+| Per video | Engagement rate | **6–10%** (klein account 5–9%+) | Brandwatch-benchmark |
+| Per video | Saves + shares | boven likes | Echte waarde-signalen (#2) |
+| Per video | Comments in eerste uur | — | Engagement velocity |
+| Wekelijks | Volgers-groei (follow-rate ~0,5–2% v. views) | — | Merkmomentum |
+| Maandelijks | Waitlist-aanmeldingen via bio | — | Funnel naar SaaS |
 
 ## 9. Experiment-backlog (audit vult dit)
 
@@ -105,6 +117,12 @@ Reach (P1/P3) → Volgen (persona/verhaal, P2) → Bio-link → Waitlist/email �
 
 ## Changelog
 
+- **2026-06-16 (deep research → recept herijkt)** — Content-recept gebaseerd op deep research
+  (`RESEARCH.md`, 5 angles, ~50 bronnen): **carousel-first** (Photo-Mode listicles), video's
+  **<35s** met loop + captions + emerging trending sound, **menselijke voiceover + echte waarde**,
+  AI-content labelen, **3–5 kwaliteitsposts/week** op één niche. KPI-benchmarks toegevoegd
+  (completion 60–70%+, engagement 6–10%, follow-rate 0,5–2%). Bevinding: pure AI-product-b-roll
+  plafonneert (hook ~38–42) → niet posten. (door: deep research / audit)
 - **2026-06-15 (niche-verbreding)** — Niche verbreed naar **AI & impact op
   e-commerce / online wereld** (i.p.v. smal "tool voor sellers"). Positionering,
   ICP, pillars en hooks aangepast voor brede reach met commerciële kern. (door: gebruiker)
