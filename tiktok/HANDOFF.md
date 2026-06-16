@@ -42,5 +42,18 @@ niet kon tonen. Op desktop kan de gebruiker ze goedkeuren:
 > VECTOR TikTok-engine. Ik ga je nu mijn 5 referentie-TikToks geven om de stijl te ontleden.
 > Daarna bouwen we de eerste carousel in dat recept en checken 'm met de virality-predictor."
 
-## Branch
+## Welke MCP-connectors verbinden op de Mac (afgeslankt voor de TikTok-engine)
+- **Must-have: Higgsfield** — de engine zelf: referenties analyseren, carousels/beelden + video
+  (Marketing Studio), voiceover, virality-checker. Verbind met tools goedgekeurd
+  (upload, import, analyse, Marketing Studio).
+- **Sterk aanbevolen: Canva** — edit-/caption-laag: burned-in captions, slides afmonteren, exporteren.
+- **Optioneel nu: Konvert / Ads Library** — concurrentie-/creative-research (voor de audit).
+- **Apart (geen MCP): TikTok Content Posting API** — developer-app + tokens uit `SETUP.md`, voor posten.
+- **Niet nodig:** Shopify, Meta Ads, Drive (standalone contentmerk, geen eigen store/ads).
+  GitHub alleen om werk te blijven opslaan.
+
+Kortste pad: **Higgsfield verbinden → referenties analyseren → eerste carousel bouwen.** Canva erbij bij afmonteren.
+
+## Branch & PR
 Al het werk staat op branch `claude/tiktok-automation-strategy-eo1pxs` (repo `harrystrampel/vakantie-dashboard`).
+Open pull request: **#1** — https://github.com/harrystrampel/vakantie-dashboard/pull/1 (push naar de branch werkt 'm bij).
