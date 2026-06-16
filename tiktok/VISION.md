@@ -24,10 +24,24 @@ Het publiek is tegelijk **bewijs** én **leads**. Monetisatie later via:
 - done-for-you AI-diensten voor webshops, of
 - sponsoring/affiliate met AI-/e-commerce-tools.
 
+## Groei-principe (boven alles)
+**Het doel is een GROEIEND account. Dat krijg je niet door slechte video's te posten —
+dat schaadt het juist.** Liever 2 sterke video's per week dan 7 middelmatige. Volume zonder
+kwaliteit verlaagt watch-time, en het algoritme straft dat af.
+
+## Kwaliteitspoort (niets gaat live zonder dit)
+1. **Hook-score drempel** via de virality-checker — richtlijn **≥ 70** op de hook (0–3s).
+   De product-b-roll van 15-16 juni plafonneerde rond **38–42**: niet posten.
+2. **Menselijk oordeel** — Harry keurt 'm goed; ziet het er goedkoop/AI-fake uit → niet posten.
+3. **Edit-laag aanwezig** — schone captions + (trending) sound. Rauwe generatie = niet af.
+Komt een video hier niet doorheen? Dan posten we 'm niet. Punt.
+
 ## Kwaliteitslat
 - Geen kale tekstkaarten — elk beeld draagt. Mix per slide: rauwe UGC-hook → premium bewijs.
 - Hook in frame 0 is heilig (de #1 hefboom; meet met virality-checker).
-- Echte beelden/voorbeeldproducten, gevarieerd over niches — niet eindeloos één nep-flesje.
+- Sterke hooks = **mens/gezicht, beweging/pattern-interrupt of echte curiosity-gap** — niet
+  een sereen draaiend product (data-bevinding: dat plafonneert rond hook-score 40).
+- Echte beelden/voorbeeldproducten, gevarieerd — niet eindeloos één nep-flesje.
 - Referenties van de gebruiker zijn de stijl-lat; eerst ontleden, dan bouwen.
 
 ## Architectuur (waar wat draait)
