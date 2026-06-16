@@ -1,24 +1,27 @@
 # COSTS — echte credit-kosten & maandbudget
 
-> Vastgelegd op 2026-06-15 via live cost-preflight. Dit stuurt de productiekeuzes.
-> Saldo op dat moment: **1.789 credits** (Higgsfield Ultra-plan).
+> Bijgewerkt op 2026-06-16 met echte transactie-data (niet geschat).
+> Saldo nu: **1.661 credits** (Higgsfield Ultra-plan).
 
-## Echte kosten per item (geverifieerd)
+## Echte kosten per item (geverifieerd uit transactiehistorie)
 
 | Item | Model / setting | Credits |
 |---|---|---|
-| AI-video | seedance_2_0, 10s, 720p | **45** |
-| AI-afbeelding | soul_2, 2k | **~0,12** (afgerond 1) |
-| AI-voiceover | inworld_text_to_speech | klein (nog exact te meten) |
-| Virality-predictor | per analyse | n.t.b. — strategisch inzetten |
+| AI-video 10s | seedance_2_0, 720p | **45** |
+| AI-video 5s | seedance_2_0, 720p | **22,5** |
+| Carousel-slide | nano_banana_pro | **2** per slide (4 slides = 8) |
+| AI-afbeelding | soul_2, 2k | **~0,12** |
+| Virality-predictor | per analyse | meegerekend; strategisch inzetten |
+
+> Let op: een als **NSFW geflagde** video wordt **automatisch terugbetaald** (gezien: +22,5 refund). Mislukte generaties kosten dus niks.
 
 ## Kosten per post-formaat
 
 | Formaat | Opbouw | Credits/post |
 |---|---|---|
-| Slideshow / carousel | ~6 beelden + 1 voiceover | **~1–3** |
-| Hero-videoclip | 1× 10s clip + captions | **~45** |
-| Volledige multi-shot video | ~4× 10s clips | **~180** |
+| Slideshow / carousel | 4 slides (nano_banana_pro) | **8** |
+| Hero-videoclip 5s | 1× 5s clip | **22,5** |
+| Hero-videoclip 10s | 1× 10s clip | **45** |
 
 ## Gekozen cadans: HYBRIDE (binnen budget)
 
