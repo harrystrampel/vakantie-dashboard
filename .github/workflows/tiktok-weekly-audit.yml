@@ -1,0 +1,51 @@
+name: TikTok weekly audit
+
+# Draait elke maandagochtend (07:00 UTC ≈ 09:00 Europe/Amsterdam).
+# Maakt een lege audit-log aan uit de template en opent een PR, zodat de
+# strateeg-audit (door Claude, met web-research + cijfers) ingevuld kan worden
+# en STRATEGY.md + de week-briefs bijgewerkt worden.
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create this week's audit file from template
+        id: mk
+        run: |
+          set -e
+          YEAR=$(date -u +%G)
+          WEEK=$(date -u +%V)
+          OUT="tiktok/audits/${YEAR}-W${WEEK}.md"
+          if [ ! -f "$OUT" ]; then
+            sed -e "s/{WW}/${WEEK}/g" -e "s/{JJJJ-MM-DD}/$(date -u +%F)/g" \
+              tiktok/audits/TEMPLATE.md > "$OUT"
+          fi
+          echo "out=$OUT" >> "$GITHUB_OUTPUT"
+          echo "branch=audit/${YEAR}-W${WEEK}" >> "$GITHUB_OUTPUT"
+
+      - name: Open PR with the audit skeleton
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          BR="${{ steps.mk.outputs.branch }}"
+          git config user.name "tiktok-audit-bot"
+          git config user.email "actions@github.com"
+          git checkout -b "$BR"
+          git add "${{ steps.mk.outputs.out }}"
+          git commit -m "Weekly audit skeleton ${{ steps.mk.outputs.out }}" || exit 0
+          git push -u origin "$BR"
+          gh pr create --fill \
+            --title "Weekly TikTok audit — ${{ steps.mk.outputs.out }}" \
+            --body "Audit-skelet aangemaakt. Claude vult cijfers + trends in, werkt STRATEGY.md en de week-briefs bij." \
+            || true

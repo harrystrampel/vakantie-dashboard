@@ -1,0 +1,14 @@
+{
+  "_readme": "Per datum de klaargezette post. De daily-post workflow pakt de entry van vandaag. type 'video' = hero-video (video_url + title). type 'carousel' = photo-post (slide_urls + title). Een geplande Claude-sessie genereert de content, host de bestanden op publieke URL's en vult de urls hier in.",
+  "2026-06-16": {
+    "type": "carousel",
+    "manifest": "posts/2026-06-16-carousel-product-photography/post.md",
+    "slide_urls": [
+      "TODO_host_slide-1-hook.png",
+      "TODO_host_slide-2-before.png",
+      "TODO_host_slide-3-after.png",
+      "TODO_host_slide-4-cta.png"
+    ],
+    "title": "Stop paying for product photography. 📸 Same phone photo → studio-grade shot with AI, $0. Save this 📌 follow @vectorhq #ecommerce #ai #productphotography #shopify #dropshipping"
+  }
+}

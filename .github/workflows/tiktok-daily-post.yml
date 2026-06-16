@@ -1,0 +1,67 @@
+name: TikTok daily post
+
+# Post 1 video per dag via de officiële Content Posting API.
+# Cron staat in UTC. 15:00 UTC ≈ 17:00 Europe/Amsterdam (zomertijd).
+# Pas de tijd aan of laat de maandag-audit de optimale tijd bepalen.
+on:
+  schedule:
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      video_url:
+        description: "Public .mp4 URL (overschrijft de queue)"
+        required: false
+      title:
+        description: "Caption incl. hashtags"
+        required: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r tiktok/scripts/requirements.txt
+
+      # De video van vandaag komt uit tiktok/content/queue.json:
+      #   { "2026-06-15": { "video_url": "https://...", "title": "caption #ai" } }
+      # De creatieve generatie (AI-video/voiceover) gebeurt in een geplande
+      # Claude-sessie die de queue vult — GitHub Actions doet alleen het posten.
+      - name: Resolve today's video
+        id: pick
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, datetime, pathlib
+          override = os.environ.get("IN_URL")
+          if override:
+              print(f"video_url={override}")
+              print(f"title={os.environ.get('IN_TITLE','')}")
+          else:
+              today = datetime.date.today().isoformat()
+              q = json.loads(pathlib.Path("tiktok/content/queue.json").read_text())
+              item = q.get(today)
+              if not item:
+                  print("skip=true")
+              else:
+                  print(f"video_url={item['video_url']}")
+                  print(f"title={item['title']}")
+          PY
+        env:
+          IN_URL: ${{ github.event.inputs.video_url }}
+          IN_TITLE: ${{ github.event.inputs.title }}
+
+      - name: Post to TikTok
+        if: steps.pick.outputs.skip != 'true' && steps.pick.outputs.video_url != ''
+        env:
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+        run: |
+          python tiktok/scripts/post_to_tiktok.py \
+            --video-url "${{ steps.pick.outputs.video_url }}" \
+            --title "${{ steps.pick.outputs.title }}"
